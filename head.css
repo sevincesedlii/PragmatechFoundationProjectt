@@ -52,9 +52,197 @@ border: 3px solid #d9d9d9;
     transition:0.5s;
     background-color:black;
 }
+.menyu {
+    position:relative;
+  margin-top:20px;
+}
 
 .fa-bars{
+    margin-top:20px;
+    padding:20px;
+    float:left;
     font-size:20px;
-    margin-left:30px;
-    margin-top:5px;
+    border-right:1px solid gray;
+}
+ ul{
+     margin-top:20px;
+     text-align:center;
+    list-style-type:none;
+    margin-left:40px;
+}
+ul li {
+    margin-left:100px;
+    float:left;
+    display:inline-block;
+    width:150px;
+    height:50px;
+}
+ul li:hover{transition:0.5s;
+    text-decoration:underline;
+    color:grey;
+    line-height:40px;
+}
+.fa-search{
+    margin-left:40px;
+    float:left;
+    border-left:1px solid gray;
+    padding:20px;
+    margin-top:20px;
+    font-size:20px;
+}
+.story{
+    margin-top:120px;
+    height:500px;
+    width:100%;
+     background-color:gray;
+}
+.sekil{
+float:left;
+width:65%;
+height:500px;
+background-image:url(http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic111-1140x660.jpg);
+background-attachment: fixed;
+}
+.near{
+font-size:20px;
+color:white;
+background-color:gray;
+width:30%;
+height:500px;
+float:left;
+}
+.yazi{
+    margin:60px 60px;
+    line-height:40px;
+}
+.yazi p{
+font-size:18px;
+}
+.yazi h2{
+margin-top:10px;
+}
+.yazi pre{
+    font-size:16px;
+    margin-top:10px;
+    letter-spacing:2px;
+    padding:5px 5px;
+    border:1px solid black;
+    border-radius:4px;
+    display:inline-block;
+    padding:13px 30px;
+}
+.yazi pre:hover{
+    background-color:white;
+    color:black;
+    transation:0.5s;
+}
+.bottom{
+    height:50px;    
+    background-color:#262A29;
+    width:500px;
+    }
+img{   
+    text-align:center;
+    border-right:1px solid white;
+    padding-right:50px;
+    text-align:center;
+    height:50px;
+    width:50px;
+}
+.yazi{
+    box-sizing:border-box;
+    margin-left:27px;
+}
+.bir{
+    font-family: 'Lato', sans-serif;
+    line-height:20px;
+    display:inline-block;
+    border-right:1px solid gray;
+    width:16%;
+    float: left;
+    padding: 0 15px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size:14px;
+}
+.iki{
+    font-family: 'Lato', sans-serif;
+    line-height:20px;
+    display:inline-block;
+    border-right:1px solid gray;
+    width:16%;
+    float: left;
+    padding: 0 15px;
+    margin: 15px 0;
+    cursor: pointer;
+     font-size:14px;
+}
+.iki{
+    font-family: 'Lato', sans-serif;
+    line-height:20px;
+    display:inline-block;
+    border-right:1px solid gray;
+    width:16%;
+    float: left;
+    padding: 0 15px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size:14px;
+}
+.third{
+    font-family: 'Lato', sans-serif;
+    line-height:20px;
+    display:inline-block;
+    border-right:1px solid gray;
+    width:16%;
+    float: left;
+    padding: 0 15px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size:14px;
+}
+.dord{
+    font-family: 'Lato', sans-serif;
+    line-height:20px;
+    display:inline-block;
+    font-size:14px;
+    width:16%;
+    float: left;
+    padding: 0 15px;
+    margin:15px 0;
+    border-right: 1px solid #d9d9d9;
+    cursor: pointer;
+}
+.bes{
+    font-family: 'Lato', sans-serif;
+    line-height:20px;
+    display:inline-block;
+    font-size:14px;
+    border-right:1px solid gray;
+    width: 16%;
+    float:left;
+    padding: 0 15px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.text{  margin:95px 15px;
+}
+.txt{
+width:250px;
+height:310px;
+background-color:gray;
+background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-1/wp-content/uploads/2015/09/welcome-left-image.jpg");
+background-repeat:no-repeat;
+}
+.txt p{
+color:white;
+font-size:29px;
+line-height:50px;
+padding:180px 20px 0px;
+}
+.txt pre{
+color:white;
+}
+.txt2{
+   color:#E3E9E8;
 }
