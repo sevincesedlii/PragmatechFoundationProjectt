@@ -2,6 +2,10 @@
     margin:0;
     padding:0;
 }
+.body{
+    background-color:#E3F4FE;
+    position: relative;
+}
 #headd{
     margin-left:30px;
     margin-right:30px;
@@ -77,7 +81,8 @@ ul li {
     width:150px;
     height:50px;
 }
-ul li:hover{transition:0.5s;
+ul li:hover{
+    transition:0.5s;
     text-decoration:underline;
     color:grey;
     line-height:40px;
@@ -94,7 +99,7 @@ ul li:hover{transition:0.5s;
     margin-top:120px;
     height:500px;
     width:100%;
-     background-color:gray;
+    background-color:gray;
 }
 .sekil{
 float:left;
@@ -175,18 +180,6 @@ img{
     padding: 0 15px;
     margin: 15px 0;
     cursor: pointer;
-     font-size:14px;
-}
-.iki{
-    font-family: 'Lato', sans-serif;
-    line-height:20px;
-    display:inline-block;
-    border-right:1px solid gray;
-    width:16%;
-    float: left;
-    padding: 0 15px;
-    margin: 15px 0;
-    cursor: pointer;
     font-size:14px;
 }
 .third{
@@ -225,8 +218,12 @@ img{
     margin: 15px 0;
     cursor: pointer;
 }
-.text{  margin:95px 15px;
+.text{
+margin-top:95px;
+position:absolute;
+display:flex;
 }
+
 .txt{
 width:250px;
 height:310px;
@@ -244,5 +241,297 @@ padding:180px 20px 0px;
 color:white;
 }
 .txt2{
-   color:#E3E9E8;
+    width:500px;
+    height:310px;
+  background-color:#B4FCF3;
+   margin-top:0px;
+   margin-left:280px;
+   display: inline-block;
+   background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-1/wp-content/uploads/2015/09/welcome-center-image.jpg");
+   background-repeat:no-repeat;
+ color:white;
+}
+.me{
+    color:gray;
+    margin-top:60px;
+    margin-left:185px;
+    margin-bottom:70px;
+}
+.me p{
+font-size:13px;
+}
+.me pre{
+ font-size:28px;
+
+} 
+.txt3{
+    width:250px;
+    height:310px;
+    background-color:gray;
+    display: inline-block;
+}
+.read{
+    font-size:14px;
+    margin-left:10px;
+    margin-top:20px;
+    color:gray;
+    padding:10px;
+    border: 3px solid #d9d9d9;
+    display:inline-block;
+}
+.read:hover{
+    color:white;
+    transition:0.5s;
+    background-color:black;
+}
+.txt3{
+    color:white;
+}
+.come{
+    text-align:center;
+    margin-top:60px;
+}
+.come pre{
+    font-size:25px;
+}
+    .ders{
+        font-size:14px;
+        margin-left:70px;
+        margin-top:20px;
+        color:white;
+        padding:10px;
+        border: 3px solid #d9d9d9;
+        display:inline-block;
+        }
+    .ders:hover{
+        color:white;
+        transition:0.5s;
+        background-color:black;
+    }
+.summer{
+    margin-top:500px;
+    display:flex;
+    margin-right:50px;
+    margin-left:50px;
+}
+.every1{
+    width:800px;
+    height:400px;
+    background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic20-1140x660.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}.every2{
+margin-left:70px;
+ width:250px;
+ height:310px;
+ background-image:url("https://wallpaperaccess.com/full/640039.jpg");
+}
+.gold{
+    color:white;
+    text-align:center;
+    margin-top:50px;
+    line-height:30px;
+}
+.gold p{
+font-size:13px;
+}
+.gold pre{
+font-size:20px;
+}
+.point{
+    font-size:14px;
+    margin-left:10px;
+    margin-top:20px;
+    color:gray;
+    padding:10px;
+    border: 3px solid #d9d9d9;
+    display:inline-block;
+}
+.point:hover{
+    color:white;
+    transition:0.5s;
+    background-color:black;
+}
+.mix1{
+    text-align:center;
+    line-height:30px;
+}
+.mix1 pre{
+    line-height:20px;
+    margin-right:50px;
+}
+.continue{
+    font-size:14px;
+    margin-left:10px;
+    margin-top:20px;
+    background-color:gray;
+    padding:10px;
+    border: 3px solid #d9d9d9;
+    display:inline-block;
+    color:white;
+}
+.continue:hover{
+    color:white;
+    transition:0.5s;
+    background-color:black;
+}
+.border{
+    width:780px;
+    height:40px;
+    border:1px solid gray;
+    margin-left:70px;
+    margin-top:30px;
+}
+.border1{
+display:inline-block;
+float:left;
+width:260px;
+height:40px;
+ border-right:1px solid gray;
+}
+.border2{
+display:inline-block;
+float:left;
+width:260px;
+height:40px;
+border-right:1px solid gray;
+}
+.youtube{
+    margin-top:5px;
+}
+.youtube:hover{
+    color:gray;
+    transition:0.5s;
+}
+.mix2{
+    border:1px solid gray;
+    width:250px;
+    height:500px;
+    margin-left:45px;
+    padding:10px;
+}
+.mix{
+    display:flex;
+    position:absolute;
+}
+.mix3{
+width:250px;
+height:50px;
+border-bottom:1px solid gray;
+}
+.mix4{
+    margin-top:15px;
+    width:250px;
+    height:100px;
+    border-bottom:1px solid gray;
+    background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic20-90x70.jpg");
+    background-repeat:no-repeat;
+}
+.mix5{
+    margin-top:15px;
+    width:250px;
+    height:100px;
+    border-bottom:1px solid gray;
+    background-image: url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic25-90x70.jpg");
+    background-repeat:no-repeat;
+}
+.mix6{
+    margin-top:15px;
+    width:250px;
+    height:100px;
+    border-bottom:1px solid gray;
+    background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic111-90x70.jpg");
+    background-repeat: no-repeat;
+}
+.mix7{
+    margin-top:15px;
+    width:250px;
+    height:100px;
+    border-bottom:1px solid gray;
+    background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic24-90x70.jpg");
+    background-repeat: no-repeat;
+}
+.mix3 span{
+    color:black;
+    margin-left:60px;
+    font-size:20px;
+    font-weight:bold;
+}
+.mix4 span,p{
+    margin-left:100px;
+    color:gray;
+}
+.mix5 span,p{
+    margin-left:100px;
+    color:gray;
+}
+.mix6 span,p{
+    margin-left:100px;
+    color:gray;
+}
+.mix7 span,p{
+    margin-left:100px;
+    color:gray;
+}
+.subsrb{
+    width:100px;
+    height:50px;
+    border:1px solid gray;
+}
+.umum4{
+margin-top:600px;
+margin-left:70px;
+}
+.meqale{
+    width:440px;
+    height:230px;
+    position: absolute;
+ background-repeat: no-repeat;
+ background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic25-1140x660.jpg");
+}
+.meqaleyazi{
+    line-height:20px;
+ margin-top:250px;
+    margin-left:0px;
+    color:gray;
+    font-size:15px;
+    text-align:center;
+}
+.meqaleyazi p{
+margin-left:20px;
+}
+.meqaleyazi h2{
+ color:black;
+}
+.meqaleyazi span{
+line-height:20px;
+}
+.meqaleyazi pre{
+    line-height:20px;
+
+}
+.readings{
+    font-size:14px;
+    margin-left:120px;
+    margin-top:30px;
+    background-color:gray;
+    padding:10px;
+    border: 1px solid black;
+    display:inline-block;
+    color:white;
+}
+.readings:hover{
+    color:white;
+    transition:0.5s;
+    background-color:black;
+}
+.meqale4{
+
+}
+.meqaleyazi2{
+
+}
+.readings{
+    
 }
