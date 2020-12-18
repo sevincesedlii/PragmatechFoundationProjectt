@@ -528,11 +528,61 @@ line-height:20px;
     background-color:black;
 }
 .meqale4{
+    margin-left:500px;
+    width:440px;
+    height:230px;
+    position: absolute;
+ background-repeat: no-repeat;
+ background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic111-1140x660.jpg");
+}
+.meqaleyazi2 {
+margin-top:248px;
+line-height:20px;
+text-align:center;
 
 }
-.meqaleyazi2{
+.meqaleyazi2 pre{
+line-height:15px;
+color:gray;
+font-size:15px;
+}
+.meqaleyazi2 span{
+color:gray;
+font-size:15px;
+}
+.meqaleyazi2 h2{
 
 }
-.readings{
-    
+.meqaleyazi2 p{
+font-size:15px;
+margin-right:70px;
+}
+
+.readingsss{
+    font-size:14px;
+    margin-left:70px;
+    margin-top:30px;
+    background-color:gray;
+    padding:10px;
+    border: 1px solid black;
+    display:inline-block;
+    color:white;
+}
+.readingsss:hover{
+    color:white;
+    transition:0.5s;
+    background-color:black;
+}
+.commets{
+width:440px;
+height:45px;
+border:1px solid gray;
+margin-top:18px;
+}
+.commets2{
+
+}
+.follow{
+    width:220px;
+    border-right:1px solid gray;
 }
