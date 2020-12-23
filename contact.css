@@ -183,7 +183,7 @@ font-size:18px;
 .message-send:hover{
 color:white;
 background-color:black;
-transation:0.6s;
+transition:0.6s;
 }
 .footer{
     padding:0px;
