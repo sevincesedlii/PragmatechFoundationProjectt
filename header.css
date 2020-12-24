@@ -572,11 +572,22 @@ margin-right:70px;
 }
 .commets{
 width:440px;
-height:45px;
+height:40px;
 border:1px solid gray;
 margin-top:18px;
 }
 .follow{
     width:220px;
+    border-right:1px solid gray;
+}
+.commets2{
+    margin-top:20px;
+    width:440px;
+    height:40px;
+    border:1px solid gray;
+}
+.follow-right{
+    width:220px;
+    height:40px;
     border-right:1px solid gray;
 }
