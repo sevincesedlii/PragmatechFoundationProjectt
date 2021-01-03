@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EFF5F3;
+    font-family: 'Lato', sans-serif;
+}
+#header-top {
+    width: 1100px;
+    height: 145px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid gray;
+}
+.header-social-icons {
+    margin: 30px 3px;
+    width: 30%;
+}
+.fa-facebook-f {
+    margin-left: 10px;
+    font-size: 15px;
+    color: gray;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.fa-facebook-f:hover {
+    border-color: white;
+    transition: 0.4s;
+}
+
+.fa-instagram {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: gray;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.fa-instagram:hover {
+    border-color: white;
+    transition: 0.1s;
+}
+
+.fa-linkedin-in {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: gray;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.fa-linkedin-in:hover {
+    border-color: white;
+    transition: 0.4s;
+}
+
+.header-title {
+    text-align: center;
+    width: 40%;
+}
+.header-title h1{
+
+}
+.header-subscribe {
+    text-align: center;
+    width: 30%;
+    margin: 30px 3px;
+}
+.btn {
+    border: 1px solid gray;
+    float: right;
+    padding: 4px 13px;
+}
+.btn a {
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .header-top {
+        display: flex;
+        display: column;
+        width: 100%;
+    }
+    .header-social-icons,
+    .header-title,
+    .header-subscribe {
+        width: 900%;
+        margin: auto;
+    }
+}
+#header-bottom{
+    width: 1100px;
+    height: 145px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-icon{
+    margin:5px 3px;
+    width:15%;
+}
+.menu{
+    text-align: center;
+    width:70%;
+}
+.search-icon{
+    text-align:right;  
+    width: 15%;
+    margin:5px 3px;
+}
+.menu ul li{
+    display:inline-block;
+    font-size:14px;
+    color:gray;
+}
+.menu ul{
+    word-spacing:60px;
+    letter-spacing:2px;
+    text-align:center;
+}
+.menu ul li:hover{
+    color:#42665A;
+    transition:0.2s;
+    text-decoration:underline;
+    font-size:16px;
+}
+.sample-post{
+width:1800px;
+float:left;
+height:440px;
+}
+.about-sample-post{
+    float:left;
+    width:60%;
+    display: inline-block;
+}
+.sample-post-image{
+    float:left;
+    width:1080px;
+    height:440px;
+background-repeat:no-repeat;
+background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-content/uploads/2015/09/himmelen-pic111-1140x660.jpg");
+}
+.sample-post-details{
+ float:left;
+ width:40%;
+}
+.sample-post-part{
+ float:left;
+ width:720px;
+ height:440px;
+ background-color:#4B806E;
+}
+.main{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#posts-name{
+     margin: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items:stretch;
+     box-sizing: border-box;
+     width:1800px;
+     float:left;
+     height:100px;
+    background-color:#9FAFAA;
+}
+.stories-posts{
+    width:20%;
+    float:left;
+    height:100px;
+}
+.travel-posts{
+    width:20%;
+    float:left;
+    height:100px;
+}
+.stories-posts-again{
+    width:20%;
+    float:left;
+    height:100px;
+}
+.inspiration-posts{
+    width:20%;
+    float:left;
+    height:100px;
+}
+.inspiration-posts-again{
+    width:20%;
+    float:left;
+    height:100px;
+}
+#main-left{
+
+}
+#contact-post{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:400px;
+}
+.contact-image{
+    width:100%;
+    height:300px;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image:url("https://wallpapercave.com/wp/wp3176613.jpg");
+}
+.contact-image h3{
+    color:white;
+    text-align:center;
+    align-items:center;
+    display:inline-block;
+    margin-top:120px;}
+#contact-information{
+    width:1100px;
+    height:800px;
+    background-color:#E0E5E3;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-left{
+width:550px;
+height:800px;
+display:inline-block;
+box-sizing: border-box;
+float:left;
+}
+.contact-right{
+width:550px;
+height:800px;
+display:inline-block;
+float:left;
+}
