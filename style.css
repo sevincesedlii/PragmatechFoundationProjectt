@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #EFF5F3;
+    background-color:#F1F2F2;
     font-family: 'Lato', sans-serif;
 }
 #header-top {
@@ -65,7 +65,14 @@ body {
     width: 40%;
 }
 .header-title h1{
-
+font-size:40px;
+margin-top:-10px;
+font-weight:bold;
+letter-spacing:7px;
+display:inline-block;
+}
+.header-title p{
+    margin-top:-30px;
 }
 .header-subscribe {
     text-align: center;
@@ -75,10 +82,17 @@ body {
 .btn {
     border: 1px solid gray;
     float: right;
-    padding: 4px 13px;
+    color:black;
+    font-size:13px;
+    padding:8px 30px;
 }
-.btn a {
-    text-decoration: none;
+.btn a{
+    text-decoration:none;
+}
+.btn:hover{
+    text-decoration:none;
+    color:white;
+    background-color:black;
 }
 @media only screen and (max-width: 600px) {
     .header-top {
@@ -95,7 +109,7 @@ body {
 }
 #header-bottom{
     width: 1100px;
-    height: 145px;
+    height: 100px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -106,6 +120,9 @@ body {
     margin:5px 3px;
     width:15%;
 }
+.menu-icon:hover{
+    color:gray;
+}
 .menu{
     text-align: center;
     width:70%;
@@ -114,6 +131,9 @@ body {
     text-align:right;  
     width: 15%;
     margin:5px 3px;
+}
+.search-icon:hover{
+    color:gray;
 }
 .menu ul li{
     display:inline-block;
@@ -214,8 +234,7 @@ background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-conten
 }
 .contact-image{
     width:100%;
-    height:300px;
-    background-attachment: fixed;
+    height:350px;
     background-size:cover;
     background-repeat:no-repeat;
     background-image:url("https://wallpapercave.com/wp/wp3176613.jpg");
@@ -225,11 +244,11 @@ background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-conten
     text-align:center;
     align-items:center;
     display:inline-block;
-    margin-top:120px;}
+    margin-top:150px;}
 #contact-information{
     width:1100px;
     height:800px;
-    background-color:#E0E5E3;
+    background-color:##C3D1CC;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -237,15 +256,55 @@ background-image:url("http://wp.magnium-themes.com/himmelen/himmelen-0/wp-conten
     align-items: center;
 }
 .contact-left{
-width:550px;
+width:600px;
 height:800px;
 display:inline-block;
 box-sizing: border-box;
 float:left;
 }
+.contact-left p{
+line-height:23px;
+}
+.contact-left h3{
+    color:gray;
+    display:inline-block;
+    font-size:18px;
+    line-height:15px;
+}
 .contact-right{
-width:550px;
+width:500px;
 height:800px;
 display:inline-block;
 float:left;
+}
+.contact-right h5{
+    display:inline-block;
+}
+input{
+    width:100%;
+    box-sizing:border-box;
+    border-radius:2px;
+    border:1px solid #C3D1CC;
+    height:40px;
+}
+.message{
+    height:150px;
+}
+.contact-send{
+    border:1px solid gray;
+    font-size:14px;
+    border-radius:2px;
+    padding:5px 20px;
+    margin-top:20px;
+    display:inline-block;
+}
+.contact-send:hover{
+    transition:0.2s;
+    color:white;
+    background-color:gray;
+}
+footer{
+    width:100%;
+    height:350px;
+    background-color:gray;
 }
