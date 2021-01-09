@@ -5,7 +5,20 @@ TEMPLATE:http://wp.magnium-themes.com/himmelen/himmelen-0/2015/09/22/10-words-ab
 
 Saytın növü:blog
 
-İstifadə olunacaq səhifələr:6
+Layihənin xəritə hissəsi 6 bölmədən ibarətdir:
+
+ Ana səhifə
+ 
+ Əlaqə
+ 
+ Haqqımızda
+ 
+ Abunə ol
+ 
+ 1 məqalə
+ 
+ 1 kateqoriya
+ 
 
 Home:http://wp.magnium-themes.com/himmelen/himmelen-0/
 
