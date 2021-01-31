@@ -504,3 +504,44 @@ height:350px;
 margin:auto;
 background-color:#A49F9F;
 }
+#about-main-part{
+width:1100px;
+height:500px;
+text-align:center;
+margin: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center
+}
+#about-main-left{
+width:550px;
+height:500px;
+float:left;
+}
+#about-main-right{
+width:550px;
+height:500px;
+float:right;
+#about-posts-parts{
+    width:1100px;
+    height:500px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#about-instagram-post{
+    width:366px;
+    height:500px;
+}
+#about-blog-post{
+    width:366px;
+    height:500px;
+}
+#about-travel-post{
+    width:366px;
+    height:500px;
+}
